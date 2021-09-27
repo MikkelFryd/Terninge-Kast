@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+
+#diceroller {
+  width: 60%;
+  margin: auto;
+  border-radius: 24px;
+  box-shadow: 5px 5px 19px 1px rgba(0,0,0,0.81);
+  padding: 2%;
+  margin-top:5%;
+  h1 {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: lighter;
+  }
+  div {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      figure {
+          width: 100px;
+          height: 100px;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+
+    }
+    section {
+        display: grid;
+        width: 25%;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        p {
+          font-family: "Roboto Condensed", sans-serif;
+          font-size: 2em;
+        }
+        button {
+            background-color: white;
+            border: solid 3px black;
+            border-radius: 32px;
+            font-size: 1.2rem;
+            width: 180px;
+            padding: 1rem;
+      font-weight: 600;
+      transition: all 0.2s ease-in;
+      cursor: pointer;
+      font-family: "Roboto Condensed", sans-serif;
+    }
+    button:hover {
+      background-color: black;
+      color: white;
+    }
+    label {
+      margin-top: 10%;
+      font-size: 1.2rem;
+      font-weight: 600;
+      font-family: "Roboto Condensed", sans-serif;
+    }
+    select {
+      width: 10vw;
+      height: auto;
+      margin: auto;
+      margin-top: 10%;
+      padding: 8px 24px;
+      cursor: pointer;
+      border: solid 3px black;
+      background-color: white;
+      color: black;
+      border-radius: 24px;
+      font-weight: 600;
+    }
+    select:focus {
+      outline: none;
+    }
+  }
+}
